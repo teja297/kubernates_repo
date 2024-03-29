@@ -1,0 +1,18 @@
+sudo apt update
+sudo apt upgrade -y
+sudo apt install curl
+sudo apt install apt-transport-https
+#Container or virtual machine manager, such as: Docker, QEMU, Hyperkit, Hyper-V, KVM, Parallels, Podman, VirtualBox, or VMware Fusion/Workstation
+sudo apt install virtualbox virtualbox-ext-pack -y
+#install kubctl
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+#install minikube start
+What you’ll need
+#2 CPUs or more
+nproc
+#2GB of free memory
+#20GB of free disk space
+df -h
+#Internet connection
+ping google.com
+#Container or virtual machine manager, such as: Docker, QEMU, Hyperkit, Hyper-V, KVM, Parallels, Podman, VirtualBox, or VMware Fusion/Workstation
